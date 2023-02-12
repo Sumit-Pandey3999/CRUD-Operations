@@ -63,7 +63,8 @@ const App: React.FC = () => {
               lastName: '',
               phoneNumber: '',
               age: ''
-            })
+            });
+          setupdate(false);
           })
           .catch(error => {
             console.log(error.data.message)
